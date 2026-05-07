@@ -1,27 +1,62 @@
 # Privacy Policy Repository
 
-This repository hosts **privacy policy pages** for my mobile applications using **GitHub Pages**.
-
-It is mainly used for:
-- Google Play Console
-- Google OAuth Consent Screen
-- Firebase / Google Cloud APIs
-
-All privacy policies are publicly accessible and Google-compliant.
+This repository hosts public privacy policy pages and AdMob app-ads.txt files for my mobile applications using GitHub Pages.
 
 ---
 
-## Repository URL
-
-https://github.com/kartikhadiya09/privacy-policy
-
-GitHub Pages Base URL:
+# Base URL
 
 https://kartikhadiya09.github.io/privacy-policy/
 
 ---
 
-## Folder Structure
+# Applications
 
-Each app has its **own folder**, and the `index.html` inside that folder acts as the route.
+| App Name    | Privacy Policy URL                                           |
+| ----------- | ------------------------------------------------------------ |
+| Money Radar | https://kartikhadiya09.github.io/privacy-policy/money-radar/ |
 
+---
+
+# AdMob app-ads.txt
+
+Global AdMob app-ads.txt URL:
+
+https://kartikhadiya09.github.io/privacy-policy/app-ads.txt
+
+---
+
+# Repository Structure
+
+```text
+privacy-policy/
+│
+├── README.md
+├── app-ads.txt
+│
+├── money-radar/
+│   └── index.html
+│
+├── future-app/
+│   └── index.html
+│
+└── another-app/
+    └── index.html
+```
+
+---
+
+# GitHub Repository
+
+Repository URL:
+
+https://github.com/kartikhadiya09/privacy-policy
+
+---
+
+# Notes
+
+* Each app has its own folder.
+* The `index.html` inside each folder acts as the public privacy policy page.
+* The `app-ads.txt` file is shared globally for AdMob verification.
+* All pages are publicly accessible using GitHub Pages.
