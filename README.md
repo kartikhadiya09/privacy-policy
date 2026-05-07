@@ -14,7 +14,7 @@ https://kartikhadiya09.github.io/privacy-policy/
 
 | App Name    | Privacy Policy URL                                           |
 | ----------- | ------------------------------------------------------------ |
-| Money Radar | https://kartikhadiya09.github.io/privacy-policy/money-radar/ |
+| Money Radar | https://kartikhadiya09.github.io/privacy-policy/money-rader/ |
 
 ---
 
@@ -34,7 +34,7 @@ privacy-policy/
 ├── README.md
 ├── app-ads.txt
 │
-├── money-radar/
+├── money-rader/
 │   └── index.html
 │
 ├── future-app/
