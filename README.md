@@ -4,23 +4,38 @@ This repository hosts public privacy policy pages for my mobile applications usi
 
 ---
 
-## URLs and Deployment Status
+## Currently Deployed URLs
 
 | Type | Name | URL | Status / Use |
 | --- | --- | --- | --- |
 | Base GitHub Pages URL | Privacy Policy Repository | https://kartikhadiya09.github.io/privacy-policy/ | Main deployment for this repository |
 | Privacy Policy | Money Radar | https://kartikhadiya09.github.io/privacy-policy/money-rader/ | Use this URL in app stores and app settings |
-| Current app-ads.txt copy | Project app-ads.txt | https://kartikhadiya09.github.io/privacy-policy/app-ads.txt | Deployed from this repository, but not valid for AdMob verification |
-| Required AdMob app-ads.txt | Root app-ads.txt | https://kartikhadiya09.github.io/app-ads.txt | Not deployed yet; this must be added to the `kartikhadiya09.github.io` repository root |
+| app-ads.txt copy | Project app-ads.txt | https://kartikhadiya09.github.io/privacy-policy/app-ads.txt | Deployed from this repository, but not valid for AdMob verification |
 | Repository | GitHub Source | https://github.com/kartikhadiya09/privacy-policy | Source code repository |
+
+---
+
+## AdMob Required URL
+
+This URL is required by AdMob, but it is not deployed from this `privacy-policy` repository:
+
+```text
+https://kartikhadiya09.github.io/app-ads.txt
+```
+
+Current status:
+
+```text
+404 Not Found
+```
+
+It will work only after `app-ads.txt` is added to the root of the `kartikhadiya09.github.io` repository.
 
 ---
 
 ## Important AdMob app-ads.txt Note
 
 Google AdMob checks the `app-ads.txt` file only from the domain root.
-
-The required root URL is currently expected to show `404 Not Found` until `app-ads.txt` is added to the `kartikhadiya09.github.io` repository root.
 
 Required final URL:
 
